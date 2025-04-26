@@ -696,7 +696,7 @@ img, video { /* Buena práctica general */
 }
 
 /* --- Tablets y Pantallas Pequeñas (<= 768px) --- */
-@media (max-width: 768px) {
+@media only screen and (max-device-width: 768px) {
   html {
     font-size: 15px; /* Ajustar tamaño base */
   }
@@ -811,7 +811,7 @@ img, video { /* Buena práctica general */
 
 
 /* --- Móviles (<= 480px) --- ¡AJUSTES MÁS GRANDES! --- */
-@media (max-width: 480px) {
+@media only screen and (max-device-width: 480px){
   html {
     /* Base más grande para que todo escale mejor */
     font-size: 16px;
