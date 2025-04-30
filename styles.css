@@ -698,7 +698,7 @@ img, video { /* Buena práctica general */
 /* --- Tablets y Pantallas Pequeñas (<= 768px) --- */
 @media only screen and (max-device-width: 768px) {
   html {
-    font-size: 30px; /* Ajustar tamaño base */
+    font-size: 16px; /* Ajustar tamaño base */
   }
 
   /* --- Header --- */
@@ -814,7 +814,7 @@ img, video { /* Buena práctica general */
 @media only screen and (max-device-width: 480px){
   html {
     /* Base más grande para que todo escale mejor */
-    font-size: 30px;
+    font-size: 16px;
     /* Evitar scroll horizontal accidental */
     overflow-x: hidden;
   }
