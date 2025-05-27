@@ -80,10 +80,10 @@ img {
 }
 
 .header-logo {
-  height: 40px; /* Ajusta la altura deseada para tu logo */
+  height: 70px; /* Ajusta la altura deseada para tu logo */
   width: auto; /* Mantiene la proporción */
   display: block; /* Quita espacio extra debajo si lo hubiera */
-  margin: -5px;
+  margin: -15px;
 }
 
 .app-header h1 {
